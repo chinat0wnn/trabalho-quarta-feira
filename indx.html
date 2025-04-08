@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Academia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Treine por um futuro melhor</h1>
+    </header>
+    
+    <h1>Calendário Semanal</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th id="dia-0"></th>
+                <th id="dia-1"></th>
+                <th id="dia-2"></th>
+                <th id="dia-3"></th>
+                <th id="dia-4"></th>
+                <th id="dia-5"></th>
+                <th id="dia-6"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00</td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+                <td>14:00</td>
+                <td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <main>
+        <p>Aqui você encontra tudo sobre a sua rotina de treinos e alimentação</p>
+    </main>
+
+    <!-- Imagem que será clicada -->
+    <img src="profiles.png" alt="Clique aqui" id="minhaImagem">
+
+    <!-- Janela Modal (escondida por padrão) -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="fechar" id="fecharModal">&times;</span>
+            <h2>Opções</h2>
+            <button onclick="alert('Opção 1 escolhida')">Opção 1</button>
+            <button onclick="alert('Opção 2 escolhida')">Opção 2</button>
+            <button id="botaoFechar">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
